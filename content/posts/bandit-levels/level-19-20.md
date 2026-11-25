@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-19-20"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 19 -> Level 20
 
 ### Goal
@@ -61,3 +64,6 @@ Running it without arguments helped me understand its usage. The message explain
 I learned how setuid works and how it can allow a program to run with the permissions of its owner.
 
 I also learned that checking a program's usage before running it can make it easier to understand what it does.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

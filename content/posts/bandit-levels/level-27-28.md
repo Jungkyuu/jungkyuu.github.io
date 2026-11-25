@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-27-28"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 27 -> Level 28
 
 ### Goal
@@ -69,3 +72,6 @@ The README file contained the password for the next level.
 ### Key Takeaway
 
 This level introduced me to cloning and inspecting a remote Git repository. I also learned how Git can be used to access files stored on a remote server.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

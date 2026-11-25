@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-09-10"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 9 -> Level 10
 
 **Goal**
@@ -20,3 +23,6 @@ The password for the next level is stored in the file data.txt in one of the few
 **Key Concepts**
 
 - `strings`: Extracts readable text strings from binary files.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

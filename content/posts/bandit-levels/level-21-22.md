@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-21-22"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 21 -> Level 22
 
 ### Goal
@@ -72,3 +75,6 @@ A program is running automatically at regular intervals from cron, the time-base
 I learned how cron jobs can run commands automatically with different user permissions.
 
 I also learned how to inspect cron configurations and understand why manually executing a script may produce permission errors.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

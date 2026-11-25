@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-08-09"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 8 -> Level 9
 
 **Goal**
@@ -21,3 +24,6 @@ The password for the next level is stored in the file data.txt and is the only l
 
 - `sort`: Sorts lines in lexicographical order.
 - `uniq -u`: Displays lines that occur only once.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

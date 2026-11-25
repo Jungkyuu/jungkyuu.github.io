@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-25-26"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 25 -> Level 26
 
 ### Goal
@@ -132,3 +135,6 @@ This challenge helped me understand how Linux users can be assigned different de
 I also learned that terminal settings can affect how command-line programs behave.
 
 Most importantly, I learned that programs like `more` and Vim can provide a way to escape a restricted shell environment.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

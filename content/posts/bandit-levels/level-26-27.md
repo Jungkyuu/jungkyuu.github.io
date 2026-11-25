@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-26-27"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 26 -> Level 27
 
 ### Goal
@@ -69,3 +72,6 @@ I used the `bandit27-do` program to read the Bandit 27 password file:
 ### Key Takeaway
 
 This level showed me that a restricted shell does not always prevent access to other commands. Understanding how programs interact with the terminal can reveal ways to escape a limited environment.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

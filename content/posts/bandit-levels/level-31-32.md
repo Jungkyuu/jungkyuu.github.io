@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-31-32"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 31 -> Level 32
 
 ### Goal
@@ -99,3 +102,6 @@ The remote server validated the file and returned the password for Bandit 32.
 This level introduced me to pushing files to a remote Git repository and understanding how server-side Git hooks work.
 
 I also learned that a failed push does not always mean the task failed. In this challenge, the server validated my file, displayed the next password, and then intentionally rejected the push.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

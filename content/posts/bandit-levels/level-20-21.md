@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-20-21"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 20 -> Level 21
 
 ### Goal
@@ -71,3 +74,6 @@ Both programs needed to use the same port number. If the port numbers did not ma
 I learned how to use Netcat to listen for incoming connections and how two programs can exchange data through a local TCP connection.
 
 This level also helped me understand how setuid binaries can interact with network services.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

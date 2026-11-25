@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-18-19"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 18 -> Level 19
 
 ### Goal
@@ -57,3 +60,6 @@ Instead of repeatedly trying to log in, I changed my approach and passed the com
 I learned that SSH is not only used to open a remote terminal. It can also execute commands directly on another machine.
 
 This was especially useful when an interactive login was not possible.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

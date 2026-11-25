@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-32-33"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 32 -> Level 33
 
 ## Goal
@@ -31,3 +34,6 @@ Escape from the Uppercase Shell and retrieve the password for the next level.
 ## What I Learned
 
 This level taught me how shell behavior can affect command execution and how shell variables can be used to escape a restricted environment.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

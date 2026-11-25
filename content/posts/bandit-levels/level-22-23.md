@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-22-23"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 22 -> Level 23
 
 ### Goal
@@ -81,3 +84,6 @@ Using the wrong username would generate a different hash and point to the wrong 
 I learned how multiple Linux commands can be combined using pipes and command substitution.
 
 I also learned that reading a shell script carefully can reveal how a program works and where it stores information.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

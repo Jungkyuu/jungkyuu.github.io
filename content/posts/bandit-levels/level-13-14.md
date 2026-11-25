@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-13-14"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 13 -> Level 14
 
 **Goal**
@@ -71,3 +74,6 @@ Make sure to read the error messages as they are informative.
 ### What I Learned
 
 This level helped me understand how SSH private key authentication works and how to transfer files between a remote server and my local machine. I also learned the importance of file permissions and how to troubleshoot common SSH connection errors.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-11-12"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 11 -> Level 12
 
 **Goal**
@@ -19,3 +22,6 @@ The password for the next level is stored in the file data.txt, where all lowerc
 
 **Key Concepts**
 - `tr`: A command-line utility for translating or deleting characters.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

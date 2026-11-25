@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-30-31"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 30 -> Level 31
 
 ### Goal
@@ -79,3 +82,6 @@ git show <tag-name>
 This level showed me that useful information is not always stored in the latest README file. Git tags can also reference commits containing important information.
 
 I learned to check Git tags when investigating a repository, rather than focusing only on the current files.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

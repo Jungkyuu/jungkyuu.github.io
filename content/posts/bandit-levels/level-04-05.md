@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-04-05"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 4 -> Level 5
 
 **Goal**
@@ -19,3 +22,6 @@ The password for the next level is stored in the only human-readable file in the
 2. Used `file ./*` to identify the file types, since the files contained different types of data.
 3. Found the only human-readable file among the unknown data files.
 4. Extracted the password using the `cat` command on the identified text file.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-17-18"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 17 -> Level 18
 
 ### Goal
@@ -46,3 +49,6 @@ I also learned that the order of filenames matters when interpreting the output.
 I learned how to use `diff` to compare files and find a specific change.
 
 This was a useful way to find information without manually checking every line.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

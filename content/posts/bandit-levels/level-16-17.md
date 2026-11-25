@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-16-17"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 16 -> Level 17
 
 ### Goal
@@ -114,3 +117,6 @@ I needed to identify the open ports, determine which services used SSL/TLS, and 
 This level helped me practice port scanning with Nmap and identify services that use SSL/TLS.
 
 I also learned how to use OpenSSL to interact with an encrypted service, how to transfer SSH private keys using SCP, and why proper file permissions are important for SSH authentication.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

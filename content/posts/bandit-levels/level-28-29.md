@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-28-29"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 28 -> Level 29
 
 ### Goal
@@ -83,3 +86,6 @@ This level showed me that deleting sensitive information from the latest version
 Even if a password is replaced or deleted, it may still be accessible through previous commits. This is an important security risk known as information disclosure.
 
 In real-world development, exposed passwords and API keys should be revoked and replaced, not simply deleted from the latest commit.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

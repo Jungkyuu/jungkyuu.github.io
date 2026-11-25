@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-14-15"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 14 -> Level 15
 
 **Goal**
@@ -45,3 +48,6 @@ The password for the next level can be retrieved by submitting the password of t
 ### What I Learned
 
 This level helped me understand how to use Netcat to communicate with a service through a specific port. I also learned that a successful network connection does not always display a message, and that I can send input directly through the terminal.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

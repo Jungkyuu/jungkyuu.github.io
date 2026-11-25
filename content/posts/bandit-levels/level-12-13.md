@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-12-13"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 12 -> Level 13
 
 **Goal**
@@ -27,3 +30,6 @@ The password for the next level is stored in the file data.txt, which is a hexdu
 - `xxd -r`: Reverses a hexdump, converting hexadecimal text back into binary data.
 - `file`: Determines a file's type by examining its content (magic bytes), not just its extension.
 - **Compression Tools**: Linux uses various compression formats. `.gz` is extracted with `gzip -d`, `.bz2` with `bzip2 -d`, and `.tar` (an archive) with `tar -xf`.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

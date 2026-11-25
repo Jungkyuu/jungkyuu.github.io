@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-05-06"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 5 -> Level 6
 
 **Goal**
@@ -29,3 +32,6 @@ The password for the next level is stored in a file somewhere under the inhere d
 - `find`: Searches for files and directories.
 - `-type f`: Matches regular files.
 - `-size 1033c`: Matches files exactly 1033 bytes in size.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

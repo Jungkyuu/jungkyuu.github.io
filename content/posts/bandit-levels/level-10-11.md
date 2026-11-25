@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-10-11"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 10 -> Level 11
 
 **Goal**
@@ -20,3 +23,6 @@ The password for the next level is stored in the file data.txt, which contains b
 **Key Concepts**
 - `base64`: A command used to encode or decode data using the Base64 encoding scheme.
 - `--decode`: An option that tells the `base64` command to decode the data rather than encode it.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

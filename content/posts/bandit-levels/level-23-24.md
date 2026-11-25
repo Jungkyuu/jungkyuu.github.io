@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-23-24"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 23 -> Level 24
 
 ### Goal
@@ -108,3 +111,6 @@ This was my first time writing a shell script for an automated task.
 I learned how to create a script, give it execution permission, and use a cron job to run it automatically.
 
 I also got a better understanding of Linux file ownership, permissions, and basic automation.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

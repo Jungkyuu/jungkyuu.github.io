@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-24-25"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 24 -> Level 25
 
 ### Goal
@@ -90,3 +93,6 @@ This challenge helped me understand how brute-force attacks work at a basic leve
 I also got more comfortable writing Bash scripts, using loops, and working with Netcat.
 
 Most importantly, I learned how a simple script can automate a task that would take a long time to complete manually.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

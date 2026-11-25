@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-06-07"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 6 -> Level 7
 
 **Goal**
@@ -20,3 +23,6 @@ The password for the next level is stored somewhere on the server and has all of
 2. Applied specific options to match the properties: `-user bandit7` for the owner, `-group bandit6` for the group, and `-size 33c` for the exact 33-byte size.
 3. Added `2>/dev/null` at the end of the command to hide "Permission denied" error messages.
 4. Extracted the password by reading the found file path using the `cat` command.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

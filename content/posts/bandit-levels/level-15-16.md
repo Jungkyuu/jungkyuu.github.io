@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-15-16"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 15 -> Level 16
 
 **Goal**
@@ -50,3 +53,6 @@ Helpful note: Getting “DONE”, “RENEGOTIATING” or “KEYUPDATE”? Read t
 **What I Learned**
 
 This level helped me understand the difference between a regular network connection and an encrypted SSL/TLS connection. I also learned how to use OpenSSL to communicate securely with a service running on a specific port.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)

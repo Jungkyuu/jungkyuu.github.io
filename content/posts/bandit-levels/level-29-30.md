@@ -3,6 +3,9 @@ title: "OverTheWire Bandit: level-29-30"
 draft: false
 ---
 
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
+
+
 # Level 29 -> Level 30
 
 ### Goal
@@ -95,3 +98,6 @@ This revealed the password for Bandit 30.
 This level showed me that checking only the master branch is not always enough. Other branches may contain important information that is not available in the main version of the repository.
 
 Understanding Git branches is useful not only for development but also for security investigations.
+
+---
+[← Back to Bandit Overview](/posts/overthewire-bandit-writeup/)
