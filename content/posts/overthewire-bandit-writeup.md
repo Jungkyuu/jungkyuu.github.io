@@ -2,7 +2,6 @@
 title: "OverTheWire Bandit Wargame Write-up (Level 0 - 33)"
 date: '2026-11-24T21:04:44-05:00'
 draft: true
-title: 'Overthewire Bandit Writeup'
 tags: ["Linux", "Cybersecurity", "OverTheWire"]
 ---
 
