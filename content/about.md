@@ -1,12 +1,9 @@
 ---
 title: "About Me"
-layout: "single"
 url: "/about/"
 summary: "Computer Science Co-op student at the University of Ottawa with hands-on experience in full-stack software development, cloud engineering, and systems administration."
 hidemeta: true
 ---
-
-## About Me
 
 Hi, I'm **Jung Kyu Mok**. I'm a Computer Science (Honours BSc, Co-op) student at the **University of Ottawa**, and I graduated from the Computer Programming and Analysis program at **Seneca Polytechnic**.
 
