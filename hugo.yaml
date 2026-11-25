@@ -1,0 +1,31 @@
+baseURL: "https://jungkyuu.github.io/"
+locale: "en-us"
+
+languageCode: "en-us"
+title: "Jung Kyu Mok | CS Portfolio"
+theme: "PaperMod"
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  profileMode:
+    enabled: true
+    title: "Jung Kyu Mok"
+    subtitle: "Computer Science @ uOttawa | Aspiring Cybersecurity Specialist"
+    buttons:
+      - name: Projects & Write-ups
+        url: /posts
+      - name: GitHub
+        url: https://github.com/jungkyuu
+
+menu:
+  main:
+    - identifier: posts
+      name: Write-ups & Projects
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 20
