@@ -220,6 +220,22 @@ params:
           - icon: fab fa-github
             url: https://github.com/Jungkyuu
 
+      - title: "Hotel Reservation System"
+        content: "A desktop hotel booking and front-desk management application built with Java, JavaFX, and SQLite. Structured using MVC and DAO patterns to separate self-service guest kiosk operations from administrative room assignment, billing, and check-out workflows."
+        image: https://raw.githubusercontent.com/Jungkyuu/HotelReservationSystem/main/ClassDiagram.png
+        featured:
+          name: "Project Details"
+          link: "/posts/hotel-reservation-system/"
+        badges:
+          - "Java"
+          - "JavaFX"
+          - "SQLite"
+          - "Maven"
+          - "MVC / DAO"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Jungkyuu/HotelReservationSystem
+
       - title: "OverTheWire Bandit Security Write-ups"
         content: "Completed all 34 levels (Levels 0–33) of the OverTheWire Bandit wargame, documenting structured walkthroughs for Linux privilege escalation, SSH, file permissions, and Bash shell scripting."
         image: /images/bandit.png
