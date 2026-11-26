@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap');
+
+body, p, li, span, a, button, input, textarea {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    letter-spacing: -0.01em;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand, #hero h1, #hero h2 {
+    font-family: 'Plus Jakarta Sans', 'Inter', sans-serif !important;
+    letter-spacing: -0.025em;
+}
+
+
+#hero .intro, .badge, code, pre, .date {
+    font-family: 'JetBrains Mono', monospace !important;
+    letter-spacing: 0;
+}
+
+#projects .card-img-top {
+    height: 300px !important;      
+    object-fit: cover !important;  
+    object-position: top center;   
+}
+
+#projects .card-body {
+    padding-top: 1.5rem !important;
+}
+
+#hero {
+    min-height: auto !important;
+    padding-top: 6rem !important;
+    padding-bottom: 3rem !important;
+}
+
+#hero .hero-bottom-svg {
+    display: none !important;
+}
+
+#hero,
+#hero .container,
+#hero .row {
+    min-height: auto !important;
+    height: auto !important;
+}
+
+#hero {
+    padding-top: 7rem !important;
+    padding-bottom: 2rem !important;
+}
+
+#about {
+    padding-top: 2rem !important;
+    margin-top: 0 !important;
+}
+
+#experience .tab-content ul {
+    padding-left: 1.2rem;
+    margin-top: 0.75rem;
+}
+
+#experience .tab-content li {
+    margin-bottom: 0.6rem;
+    line-height: 1.65;
+}
+
+#experience .tab-content strong {
+    color: #ffffff;
+    font-weight: 600;
+}

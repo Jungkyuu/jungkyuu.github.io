@@ -2,6 +2,7 @@
 title: "OverTheWire Bandit Wargame Write-up (Level 0 - 33)"
 date: '2026-11-24T21:04:44-05:00'
 draft: false
+summary: "Comprehensive walkthrough and command-line solutions for all 34 levels (0–33) of the OverTheWire Bandit wargame, covering Linux file permissions, SSH authentication, shell scripting, cron jobs, and network troubleshooting."
 tags: ["Linux", "Cybersecurity", "OverTheWire"]
 ---
 

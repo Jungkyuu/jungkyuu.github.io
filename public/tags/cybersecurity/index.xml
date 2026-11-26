@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Cybersecurity on Jung Kyu Mok</title>
+		<link>http://localhost:1313/tags/cybersecurity/</link>
+		<description>Recent content in Cybersecurity on Jung Kyu Mok</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 24 Nov 2026 21:04:44 -0500</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/tags/cybersecurity/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>OverTheWire Bandit Wargame Write-up (Level 0 - 33)</title>
+				<link>http://localhost:1313/posts/overthewire-bandit-writeup/</link>
+				<pubDate>Tue, 24 Nov 2026 21:04:44 -0500</pubDate>
+				<guid>http://localhost:1313/posts/overthewire-bandit-writeup/</guid>
+				<description>&lt;h1 id=&#34;overthewire-bandit-write-up&#34;&gt;OverTheWire: Bandit Write-up&lt;/h1&gt;&#xA;&lt;h2 id=&#34;about-this-project&#34;&gt;About This Project&lt;/h2&gt;&#xA;&lt;p&gt;This repository documents my progress through the OverTheWire Bandit wargame, from Level 0 to Level 33.&lt;/p&gt;&#xA;&lt;p&gt;Through these challenges, I practiced Linux command-line operations, file permissions, SSH, networking, shell scripting, cron jobs, and Git.&lt;/p&gt;&#xA;&lt;p&gt;Each write-up includes the commands I used, my thought process, troubleshooting steps, and key concepts I learned.&lt;/p&gt;&#xA;&lt;h2 id=&#34;skills--technologies&#34;&gt;Skills &amp;amp; Technologies&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Category&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Skills &amp;amp; Technologies&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Linux&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Command Line, File Permissions, Bash&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Networking&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;TCP/IP, Ports, Netcat, Nmap&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Security&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;SSH, SSL/TLS, Setuid, Brute Force&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Automation&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Shell Scripting, Cron Jobs&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Version Control&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;Git, Branches, Commit History&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;quick-navigation&#34;&gt;Quick Navigation&lt;/h2&gt;&#xA;&lt;p&gt;Click a level below to view its write-up.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

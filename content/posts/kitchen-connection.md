@@ -2,7 +2,7 @@
 title: "Kitchen Connection"
 date: '2026-11-25T04:00:00-05:00'
 draft: false
-summary: "A full-stack recipe sharing web application built with Next.js and MongoDB."
+summary: "A full-stack recipe sharing and social platform built with Next.js, Node.js, and MongoDB. Engineered a 40+ route REST API, implemented Google OAuth authentication, and collaborated in a four-person Agile team using Git pull requests and sprint reviews."
 tags: ["Next.js", "MongoDB", "Web Development", "Full-Stack"]
 ---
 

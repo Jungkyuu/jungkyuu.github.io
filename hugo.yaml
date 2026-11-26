@@ -1,56 +1,279 @@
 baseURL: "https://jungkyuu.github.io/"
 languageCode: "en-us"
-title: "Jung Kyu Mok | CS Portfolio"
-theme: "PaperMod"
-
-enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
-
-params:
-  env: production
-  defaultTheme: dark
-  disableThemeToggle: false
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: true
-
-  profileMode:
-    enabled: true
-    title: "Jung Kyu Mok"
-    subtitle: "Computer Science @ uOttawa | Software, Cloud & Cybersecurity"
-    buttons:
-      - name: About Me
-        url: /about/
-      - name: Projects & Write-ups
-        url: /posts/
-      - name: GitHub
-        url: https://github.com/Jungkyuu
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/Jungkyuu"
-
-menu:
-  main:
-    - identifier: about
-      name: About
-      url: /about/
-      weight: 5
-    - identifier: posts
-      name: Write-ups & Projects
-      url: /posts/
-      weight: 10
-    - identifier: archives
-      name: Archives
-      url: /archives/
-      weight: 20
+title: "Jung Kyu Mok"
+theme: hugo-profile
 
 outputs:
   home:
-    - HTML
-    - RSS
-    - JSON
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: posts
+      name: Posts
+      title: Blog posts
+      url: /posts
+      weight: 1
+
+params:
+  title: "Jung Kyu Mok"
+  description: "Honours BSc in Computer Science (Co-op) student at the University of Ottawa | Software, Cloud & Security Portfolio"
+  favicon: "/fav.png"
+  useBootstrapCDN: true
+  mathjax: false
+  animate: true
+  customScripts: |-
+    <link rel="stylesheet" href="/css/custom.css">
+
+  font:
+    fontSize: 1rem
+    fontWeight: 400
+    lineHeight: 1.5
+    textAlign: left
+
+  navbar:
+    align: ms-auto
+    brandName: "Jung Kyu Mok"
+    disableSearch: false
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Jung Kyu Mok."
+    subtitle: "Computer Science Student | Software, Cloud & Security"
+    content: "Honours BSc in Computer Science (Co-op) student at the University of Ottawa with hands-on experience in full-stack development, cloud infrastructure, and Linux systems. Passionate about building scalable, reliable, and secure software."
+    image: /images/profile.jpg
+    bottomImage:
+      enable: false
+    button:
+      enable: true
+      name: "Resume"
+      url: "/Jungkyu_Mok_Resume.pdf"
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Jungkyuu
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/jung-kyu-mok-ba0945303/
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I am an Honours BSc in Computer Science (Co-op) student at the University of Ottawa, holding an Honours Advanced Diploma in Computer Programming and Analysis from Seneca Polytechnic (GPA 3.6/4.0). I have hands-on experience developing full-stack web applications, containerized cloud microservices, and automated CI/CD pipelines.
+
+      Backed by AWS and Microsoft Azure certifications, Linux security labs, and leadership experience from the Republic of Korea Army Signal Corps and competitive esports, I thrive in collaborative, fast-paced engineering environments. Fluent in Korean and English, with basic conversational Japanese.
+    skills:
+      enable: true
+      title: "Technologies & Tools I work with:"
+      items:
+        - "Python"
+        - "JavaScript"
+        - "Next.js / React"
+        - "Node.js / REST APIs"
+        - "Java / C / C++"
+        - "AWS (S3, DynamoDB)"
+        - "Microsoft Azure"
+        - "Docker & LocalStack"
+        - "MongoDB & SQL"
+        - "Linux / Bash"
+        - "GitHub Actions & Jira"
+
+  # Experience
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Hanyang Jokbal"
+        jobs:
+          - name: "Server & Closing Staff (Part-Time) — Ottawa, ON"
+            date: "Sep 2026 - Present"
+            info:
+              content: "Balancing full-time Honours CS Co-op coursework with high-volume customer operations"
+            content: |  
+              - **Operations & Reliability:** Managed end-of-day closing procedures, cash reconciliation, and floor operations in a fast-paced environment while maintaining full-time Computer Science studies.
+              - **Cross-Functional Teamwork:** Coordinated seamlessly with kitchen and front-of-house teams during peak hours to ensure accurate, timely service.
+
+      - company: "Republic of Korea Army"
+        jobs:
+          - name: "Squad Leader & Tactical Communications Operator (Signal Corps)"
+            date: "18 Months Service"
+            info:
+              content: "Field Network Infrastructure, Device Management & Squad Leadership"
+            content: |
+              - **Network & Device Administration:** Managed 30+ devices for 20+ officers, configuring IP/intranet infrastructure, isolating problematic endpoints, and escalating critical incidents.
+              - **Team Leadership:** Supervised 12 soldiers during the final five months of service, assigning daily tasks and coordinating field communication operations under high-pressure conditions.
+
+      - company: "DRX"
+        jobs:
+          - name: "Team Captain, Contracted Esports Player — League of Legends Team"
+            date: "Jan 2020 - Dec 2020"
+            info:
+              content: "Competitive Strategy, Scrim Coordination & 5-Member Team Leadership"
+            content: |
+              - **Strategic Planning:** Facilitated team strategy discussions and structured daily practice schedules for a five-member contracted roster to prepare for competitive matches.
+              - **External Coordination:** Proactively arranged practice matches (scrims) with other teams and aligned training objectives with coaching staff.
+              - **Team Resilience:** Motivated teammates during challenging matches and performance slumps to maintain morale and focus on winning.
+
+  # Education
+  education:
+    enable: true
+    title: "Education"
+    index: false
+    items:
+      - title: "Honours Bachelor of Science in Computer Science (Co-op)"
+        school:
+          name: "University of Ottawa — Ottawa, ON"
+          url: "https://www.uottawa.ca"
+        date: "Sep 2026 - Present (Expected Apr 2030)"
+        content: |-
+          - Transferred with advanced standing into Computer Science Co-op coursework.
+          - Active member of the University of Ottawa Korean Students Association (UOKSA) and the Association of Korean-Canadian Scientists and Engineers (AKCSE).
+
+      - title: "Advanced Diploma, Computer Programming and Analysis (Honours)"
+        school:
+          name: "Seneca Polytechnic (Newnham Campus) — Toronto, ON"
+          url: "https://www.senecapolytechnic.ca"
+        date: "Sep 2023 - Dec 2025"
+        GPA: "3.6 / 4.0"
+        content: |-
+          - Graduated with Honours; built strong foundations in full-stack web development, cloud computing, and systems programming.
+          - **Relevant Coursework:** Data Structures and Algorithms, SQL and Database Design, Java, JavaScript, C/C++, Cloud Computing.
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Certifications & Credentials"
+    items:
+      - title: "AWS Certified Cloud Practitioner (CLF-C02)"
+        content: "Amazon Web Services — Validated foundational cloud architecture, IAM security, networking, and core AWS services (Nov 2026)."
+      - title: "Microsoft Certified: Azure Fundamentals (AZ-900)"
+        content: "Microsoft — Demonstrated core understanding of Azure cloud concepts, governance, compliance, and security."
+      - title: "Microsoft Certified: Azure Data Fundamentals (DP-900)"
+        content: "Microsoft — Verified knowledge of relational and non-relational cloud data workloads and analytics."
+
+  # Projects
+  projects:
+    enable: true
+    title: "Projects"
+    items:
+      - title: "Fragments Cloud Microservice"
+        content: "A containerized RESTful API microservice built with Node.js, Express, AWS S3, and DynamoDB, featuring LocalStack cloud emulation and a GitHub Actions CI/CD pipeline automating Docker builds and 12 Hurl API integration tests."
+        image: https://raw.githubusercontent.com/Jungkyuu/fragments-cloud-microservice/main/diagram.png
+        featured:
+          name: "Project Details"
+          link: "/posts/aws-cloud-application/"
+        badges:
+          - "AWS S3"
+          - "DynamoDB"
+          - "Node.js"
+          - "Docker"
+          - "LocalStack"
+          - "GitHub Actions"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Jungkyuu/fragments-cloud-microservice
+
+      - title: "Kitchen Connect"
+        content: "A full-stack web application built with Next.js, JavaScript, and MongoDB in a four-person capstone team. Engineered user, post, and messaging features across a 40+ route REST API, resolved Google OAuth token issues, and contributed 15 pull requests across four agile sprints."
+        image: /images/kitchen-connection.png
+        featured:
+          name: "Project Details"
+          link: "/posts/kitchen-connection/"
+        badges:
+          - "Next.js"
+          - "JavaScript"
+          - "MongoDB"
+          - "REST API"
+          - "Git / Jira"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Jungkyuu
+
+      - title: "OverTheWire Bandit Security Write-ups"
+        content: "Completed all 34 levels (Levels 0–33) of the OverTheWire Bandit wargame, documenting structured walkthroughs for Linux privilege escalation, SSH, file permissions, and Bash shell scripting."
+        image: /images/bandit.png
+        featured:
+          name: "Read Write-ups"
+          link: "/posts/bandit-levels/"
+        badges:
+          - "Linux"
+          - "Bash"
+          - "Cybersecurity"
+          - "CLI"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/Jungkyuu
+
+  # Contact
+  contact:
+    enable: true
+    title: "Get In Touch"
+    content: "I am actively seeking Co-op opportunities in Software Engineering, Cloud Infrastructure, and Cybersecurity. Feel free to reach out!"
+    btnName: "Email Me"
+    btnLink: "mailto:jmok006@uottawa.ca"
+
+  footer:
+    recentPosts:
+      path: "posts"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/Jungkyuu
+      linkedin: https://www.linkedin.com/in/jung-kyu-mok-ba0945303/
+
+  listPages:
+    disableFeaturedImage: false
+
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"

@@ -1,240 +1,1185 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="en">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Jung Kyu Mok | CS Portfolio</title>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
+<link rel="icon" href="/fav.png" type="image/gif">
 
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.95ae6e9689bd0037456375629f411acbf8ed76e0e9a7599900ad281f9526dee6.css" integrity="sha256-la5ulom9ADdFY3Vin0Eay/jtduDpp1mZAK0oH5Um3uY=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      media="print" onload="this.media='all'" />
 <noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-    </style>
+  <link
+          href="https://fonts.googleapis.com/css2?family=Alata&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
 </noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
+
+
+<link rel="stylesheet" href="/css/font.css" media="all">
+
+
+
+<meta property="og:url" content="http://localhost:1313/">
+	<meta property="og:site_name" content="Jung Kyu Mok">
+	<meta property="og:title" content="Jung Kyu Mok">
+	<meta property="og:description" content="Honours BSc in Computer Science (Co-op) student at the University of Ottawa | Software, Cloud &amp; Security Portfolio">
+	<meta property="og:locale" content="en_us">
+	<meta property="og:type" content="website">
+
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Jung Kyu Mok">
+	<meta name="twitter:description" content="Honours BSc in Computer Science (Co-op) student at the University of Ottawa | Software, Cloud &amp; Security Portfolio">
+
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"><link rel="stylesheet" href="/css/header.css" media="all">
+<link rel="stylesheet" href="/css/language-switcher.css" media="all">
+<link rel="stylesheet" href="/css/footer.css" media="all">
+
+
+<link rel="stylesheet" href="/css/theme.css" media="all">
+
+<style>
+    :root {
+        --text-color: #343a40;
+        --text-secondary-color: #6c757d;
+        --text-link-color: #007bff;
+        --background-color: #eaedf0;
+        --secondary-background-color: #64ffda1a;
+        --primary-color: #007bff;
+        --secondary-color: #f8f9fa;
+
+         
+        --text-color-dark: #e4e6eb;
+        --text-secondary-color-dark: #b0b3b8;
+        --text-link-color-dark: #ffffff;
+        --background-color-dark: #18191a;
+        --secondary-background-color-dark: #212529;
+        --primary-color-dark: #ffffff;
+        --secondary-color-dark: #212529;
+    }
+    body {
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: left;
     }
 
-</script>
+    html {
+        background-color: var(--background-color) !important;
+    }
+
+    body::-webkit-scrollbar {
+        height: 0px;
+        width: 8px;
+        background-color: var(--background-color);
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 1rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background: #b0b0b0;
+        outline: 1px solid var(--background-color);
+    }
+
+    #search-content::-webkit-scrollbar {
+        width: .5em;
+        height: .1em;
+        background-color: var(--background-color);
+    }
+</style>
+
+
+
+<meta name="description" content=Honours&#32;BSc&#32;in&#32;Computer&#32;Science&#32;(Co-op)&#32;student&#32;at&#32;the&#32;University&#32;of&#32;Ottawa&#32;|&#32;Software,&#32;Cloud&#32;&amp;&#32;Security&#32;Portfolio>
+<link rel="stylesheet" href="/css/index.css" media="all">
+<link rel="stylesheet" href="/css/projects.css" media="all">
+
+
+<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+
+
+  
+  
+
+  <title>
+Jung Kyu Mok
+
+  </title>
 	<meta name="generator" content="Hugo 0.170.1">
 </head>
-<body class="list" id="top">
-    <header class="header">
-    <nav class="header-nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Jung Kyu Mok | CS Portfolio (Alt + H)">Jung Kyu Mok | CS Portfolio</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
+
+<body class="light">
+  
+  
+<script>
+    let localStorageValue = localStorage.getItem("pref-theme");
+    let mediaQuery = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    switch (localStorageValue) {
+        case "dark":
+            document.documentElement.classList.add('dark');
+            document.body.classList.add('dark');
+            break;
+        case "light":
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
+            break;
+        default:
+            if (mediaQuery) {
+                document.documentElement.classList.add('dark');
+                document.body.classList.add('dark');
+            }
+            break;
+    }
+</script>
+
+
+
+
+<script>
+    var prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", function showHeaderOnScroll() {
+        let profileHeaderElem = document.getElementById("profileHeader");
+        let currentScrollPos = window.pageYOffset;
+        let resetHeaderStyle = false;
+        let showNavBarOnScrollUp =  true ;
+        let showNavBar = showNavBarOnScrollUp ? prevScrollPos > currentScrollPos : currentScrollPos > 0;
+        if (showNavBar) {
+            profileHeaderElem.classList.add("showHeaderOnTop");
+        } else {
+            resetHeaderStyle = true;
+        }
+        if(currentScrollPos === 0) {
+            resetHeaderStyle = true;
+        }
+        if(resetHeaderStyle) {
+            profileHeaderElem.classList.remove("showHeaderOnTop");
+        }
+        prevScrollPos = currentScrollPos;
+    });
+</script>
+
+
+
+<header id="profileHeader">
+    <nav class="pt-3 navbar navbar-expand-lg animate">
+        <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
+            
+            <a class="navbar-brand primary-font text-wrap" href="/">
+                
+                <img src="/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
+                Jung Kyu Mok
+                
+            </a>
+
+            
+                <div>
+                    <input id="search" autocomplete="off" class="form-control mr-sm-2 d-none d-md-block" placeholder='Search...'
+                        aria-label="Search" oninput="searchOnChange(event)">
+                </div>
+            
+
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg aria-hidden="true" height="24" viewBox="0 0 16 16" version="1.1" width="24" data-view-component="true">
+                    <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path>
+                </svg>
+            </button>
+
+            
+            <div class="collapse navbar-collapse text-wrap primary-font" id="navbarContent">
+                <ul class="navbar-nav ms-auto text-center">
+                    
+                        <li class="nav-item navbar-text d-block d-md-none">
+                            <div class="nav-link">
+                                <input id="search" autocomplete="off" class="form-control mr-sm-2" placeholder='Search...' aria-label="Search" oninput="searchOnChange(event)">
+                            </div>
+                        </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#about" aria-label="about">
+                            About Me
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#experience"
+                            aria-label="experience">
+                            Experience
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#education"
+                            aria-label="education">
+                            Education
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#projects"
+                            aria-label="projects">
+                            Projects
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#achievements"
+                            aria-label="achievements">
+                            Certifications &amp; Credentials
+                        </a>
+                    </li>
+                    
+
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/#contact"
+                            aria-label="contact">
+                            Get In Touch
+                        </a>
+                    </li>
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="/posts" title="Blog posts">
+                            
+                            Posts
+                        </a>
+                    </li>
+                    
+                    
+
+                    <li class="nav-item navbar-text">
+                        
+                        <div class="text-center">
+                            <button id="theme-toggle" type="button" aria-label="Toggle dark mode">
+                                <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                </svg>
+                                <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="5"></circle>
+                                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                                </svg>
+                            </button>
+                        </div>
+                    </li>
+                    
+
+                </ul>
+
             </div>
         </div>
-        <ul id="menu" class="menu">
-            <li>
-                <a href="http://localhost:1313/posts/" title="Write-ups &amp; Projects">
-                    <span>Write-ups &amp; Projects</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/archives/" title="Archives">
-                    <span>Archives</span>
-                </a>
-            </li>
-        </ul>
     </nav>
 </header>
-<main class="main"><div class="profile">
-    <div class="profile_inner">
-        <h1>Jung Kyu Mok</h1>
-        <span>Computer Science @ uOttawa | Aspiring Cybersecurity Specialist</span><div class="social-icons" >
-</div>
+<div id="content"><section id="hero" class="py-5 align-middle">
+    <div class="container px-3 px-sm-5 px-md-5 px-lg-5 pt-lg-3">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8 content animate" id="primary-font">
+                <span class="subtitle">
+                    Hi, my name is
+                </span>
+                <h1>
+                    Jung Kyu Mok.
+                </h1>
+                <h2>
+                    Computer Science Student | Software, Cloud &amp; Security
+                </h2>
+                <p class="hero-content">
+                    Honours BSc in Computer Science (Co-op) student at the University of Ottawa with hands-on experience in full-stack development, cloud infrastructure, and Linux systems. Passionate about building scalable, reliable, and secure software.
+                </p>
+                <div class="row">
+                    <div class="col-auto h-100">
+                        
+                        <a href="/Jungkyu_Mok_Resume.pdf" class="btn" ZgotmplZ
+			  
+                          target="_blank"
+                          >
+                            Resume
+                        </a>
+                        
+                    </div>
+                    <div class="col-auto px-0 h-100"><span>
+    
+    <span class="px-1">
+        <a href="https://github.com/Jungkyuu"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-github"></i>
+        </a>
+    </span>
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/jung-kyu-mok-ba0945303/"
+             target="_blank" 
+            class="btn social-icon"
+        >
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </span>
+    
 
-        <div class="buttons">
-            <a class="button" href="/posts" rel="noopener" title="Projects &amp; Write-ups">
-                <span class="button-inner">
-                    Projects &amp; Write-ups
-                </span>
-            </a>
-            <a class="button" href="https://github.com/jungkyuu" rel="noopener" title="GitHub">
-                <span class="button-inner">
-                    GitHub&nbsp;
-                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
-                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="14" width="14">
-                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
-                        <path d="M15 3h6v6"></path>
-                        <path d="M10 14L21 3"></path>
-                    </svg>
-                </span>
-            </a>
+    
+</span>
+</div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-9 pt-5 image animate px-5 px-md-5 px-lg-0 text-center">
+                        <img src="/images/profile.jpg"
+                            class="img-thumbnail mx-auto"
+                            alt="Jung Kyu Mok profile image"
+                        >
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    
+</section>
+<section id="about" class="py-0 py-sm-5">
+    <div class="container bg-transparent">
+        <h3 class="text-center bg-transparent">About Me</h3>
+        <div class="bg-transparent row justify-content-center px-3 py-5">
+            
+            <div class="col-sm-12 col-md-12 col-lg-8 content">
+                <p>I am an Honours BSc in Computer Science (Co-op) student at the University of Ottawa, holding an Honours Advanced Diploma in Computer Programming and Analysis from Seneca Polytechnic (GPA 3.6/4.0). I have hands-on experience developing full-stack web applications, containerized cloud microservices, and automated CI/CD pipelines.</p>
+<p>Backed by AWS and Microsoft Azure certifications, Linux security labs, and leadership experience from the Republic of Korea Army Signal Corps and competitive esports, I thrive in collaborative, fast-paced engineering environments. Fluent in Korean and English, with basic conversational Japanese.</p>
+
+
+                
+                Technologies &amp; Tools I work with:
+                <ul>
+                    
+                    <li>Python</li>
+                    
+                    <li>JavaScript</li>
+                    
+                    <li>Next.js / React</li>
+                    
+                    <li>Node.js / REST APIs</li>
+                    
+                    <li>Java / C / C++</li>
+                    
+                    <li>AWS (S3, DynamoDB)</li>
+                    
+                    <li>Microsoft Azure</li>
+                    
+                    <li>Docker &amp; LocalStack</li>
+                    
+                    <li>MongoDB &amp; SQL</li>
+                    
+                    <li>Linux / Bash</li>
+                    
+                    <li>GitHub Actions &amp; Jira</li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="experience" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Experience</h3>
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 py-5">
+                <div class="experience-container px-3 pt-2">
+                    <ul class="nav nav-pills mb-2 bg-transparent primary-font" id="pills-tab" role="tablist">
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link active bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='hanyang-jokbal-sep-2026-present-tab'
+                                    data-bs-target='#pills-hanyang-jokbal-sep-2026-present'
+                                    aria-controls='hanyang-jokbal-sep-2026-present'
+                                >
+                                    Hanyang Jokbal
+                                </div>
+                            </li>
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='republic-of-korea-army-18-months-service-tab'
+                                    data-bs-target='#pills-republic-of-korea-army-18-months-service'
+                                    aria-controls='republic-of-korea-army-18-months-service'
+                                >
+                                    Republic of Korea Army
+                                </div>
+                            </li>
+                        
+                            
+                            
+                                
+                            
+                            <li class="nav-item px-1 bg-transparent" role="presentation">
+                                <div
+                                    class="nav-link  bg-transparent"
+                                    aria-selected="true"
+                                    role="tab"
+                                    data-bs-toggle="pill"
+                                    id='drx-jan-2020-dec-2020-tab'
+                                    data-bs-target='#pills-drx-jan-2020-dec-2020'
+                                    aria-controls='drx-jan-2020-dec-2020'
+                                >
+                                    DRX
+                                </div>
+                            </li>
+                        
+                    </ul>
+
+                    <div class="tab-content pb-3 bg-transparent primary-font" id="pills-tabContent">
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent show active"
+                                role="tabpanel"
+                                id='pills-hanyang-jokbal-sep-2026-present'
+                                aria-labelledby='hanyang-jokbal-sep-2026-present-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Server &amp; Closing Staff (Part-Time) — Ottawa, ON</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=Balancing&#32;full-time&#32;Honours&#32;CS&#32;Co-op&#32;coursework&#32;with&#32;high-volume&#32;customer&#32;operations
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="" target="_blank">Hanyang Jokbal</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Sep 2026 - Present</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <ul>
+<li><strong>Operations &amp; Reliability:</strong> Managed end-of-day closing procedures, cash reconciliation, and floor operations in a fast-paced environment while maintaining full-time Computer Science studies.</li>
+<li><strong>Cross-Functional Teamwork:</strong> Coordinated seamlessly with kitchen and front-of-house teams during peak hours to ensure accurate, timely service.</li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-republic-of-korea-army-18-months-service'
+                                aria-labelledby='republic-of-korea-army-18-months-service-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Squad Leader &amp; Tactical Communications Operator (Signal Corps)</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=Field&#32;Network&#32;Infrastructure,&#32;Device&#32;Management&#32;&amp;&#32;Squad&#32;Leadership
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="" target="_blank">Republic of Korea Army</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>18 Months Service</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <ul>
+<li><strong>Network &amp; Device Administration:</strong> Managed 30+ devices for 20+ officers, configuring IP/intranet infrastructure, isolating problematic endpoints, and escalating critical incidents.</li>
+<li><strong>Team Leadership:</strong> Supervised 12 soldiers during the final five months of service, assigning daily tasks and coordinating field communication operations under high-pressure conditions.</li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                            
+                            
+                            
+                            
+                                
+                            
+                            <div
+                                class="tab-pane fade bg-transparent "
+                                role="tabpanel"
+                                id='pills-drx-jan-2020-dec-2020'
+                                aria-labelledby='drx-jan-2020-dec-2020-tab'
+                            >
+                                
+                                    <div>
+                                        <div class="d-flex align-items-center justify-content-between">
+                                            <div>
+                                                <span class="h4">Team Captain, Contracted Esports Player — League of Legends Team</span>
+                                                
+                                                
+                                                    <span class="p-2">
+                                                        <span
+                                                            data-bs-toggle="tooltip"
+                                                            data-bs-placement="top"
+                                                            data-bs-original-title=Competitive&#32;Strategy,&#32;Scrim&#32;Coordination&#32;&amp;&#32;5-Member&#32;Team&#32;Leadership
+                                                        > 
+                                                            <i class="fas fa-info-circle fa-xs"></i>
+                                                        </span>
+                                                    </span>
+                                                
+                                                
+                                                
+                                                    <small>-</small>
+                                                    <a href="" target="_blank">DRX</a>
+                                                
+                                            </div>
+                                            <div class="d-block">
+                                                <small>Jan 2020 - Dec 2020</small>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="pb-2 pb-3">
+                                            <ul>
+<li><strong>Strategic Planning:</strong> Facilitated team strategy discussions and structured daily practice schedules for a five-member contracted roster to prepare for competitive matches.</li>
+<li><strong>External Coordination:</strong> Proactively arranged practice matches (scrims) with other teams and aligned training objectives with coaching staff.</li>
+<li><strong>Team Resilience:</strong> Motivated teammates during challenging matches and performance slumps to maintain morale and focus on winning.</li>
+</ul>
+
+                                        </div>
+                                    </div>
+                                
+                            </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="education" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Education</h3>
+        <div class="row justify-content-center py-5">
+            
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>Sep 2026 - Present (Expected Apr 2030)</small>
+                                </div>
+                                <h5 class="card-title">Honours Bachelor of Science in Computer Science (Co-op)</h5>
+                                
+                                
+                                <a href="https://www.uottawa.ca" target="_blank">
+                                    <h6>
+                                    University of Ottawa — Ottawa, ON
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1 education-content">
+                                    <ul>
+<li>Transferred with advanced standing into Computer Science Co-op coursework.</li>
+<li>Active member of the University of Ottawa Korean Students Association (UOKSA) and the Association of Korean-Canadian Scientists and Engineers (AKCSE).</li>
+</ul>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-12 p-0">
+                <div class="row row align-items-center justify-content-center m-1 mb-4">
+                    
+
+                    <div class="col-md-9">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="float-end">
+                                    <small>Sep 2023 - Dec 2025</small>
+                                </div>
+                                <h5 class="card-title">Advanced Diploma, Computer Programming and Analysis (Honours)</h5>
+                                
+                                
+                                <a href="https://www.senecapolytechnic.ca" target="_blank">
+                                    <h6>
+                                    Seneca Polytechnic (Newnham Campus) — Toronto, ON
+                                    </h6>
+                                </a>
+                                
+
+                                
+                                <div class="py-1">
+                                    GPA:
+                                    <i>
+                                        <small>3.6 / 4.0</small>
+                                    </i> 
+                                </div>
+                                
+                                <div class="py-1 education-content">
+                                    <ul>
+<li>Graduated with Honours; built strong foundations in full-stack web development, cloud computing, and systems programming.</li>
+<li><strong>Relevant Coursework:</strong> Data Structures and Algorithms, SQL and Database Design, Java, JavaScript, C/C++, Cloud Computing.</li>
+</ul>
+
+                                </div>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Projects</h3>
+        <div class="row justify-content-center px-3 px-md-5">
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Fragments Cloud Microservice">
+                    <div class="card-head">
+                        <img class="card-img-top" src="https://raw.githubusercontent.com/Jungkyuu/fragments-cloud-microservice/main/diagram.png" alt="Fragments Cloud Microservice">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">AWS S3</span>
+                            
+                            <span class="badge badge-secondary">DynamoDB</span>
+                            
+                            <span class="badge badge-secondary">Node.js</span>
+                            
+                            <span class="badge badge-secondary">Docker</span>
+                            
+                            <span class="badge badge-secondary">LocalStack</span>
+                            
+                            <span class="badge badge-secondary">GitHub Actions</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Fragments Cloud Microservice</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            A containerized RESTful API microservice built with Node.js, Express, AWS S3, and DynamoDB, featuring LocalStack cloud emulation and a GitHub Actions CI/CD pipeline automating Docker builds and 12 Hurl API integration tests.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Jungkyuu/fragments-cloud-microservice" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/posts/aws-cloud-application/" target="_blank">
+                                Project Details
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="Kitchen Connect">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/kitchen-connection.png" alt="Kitchen Connect">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Next.js</span>
+                            
+                            <span class="badge badge-secondary">JavaScript</span>
+                            
+                            <span class="badge badge-secondary">MongoDB</span>
+                            
+                            <span class="badge badge-secondary">REST API</span>
+                            
+                            <span class="badge badge-secondary">Git / Jira</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">Kitchen Connect</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            A full-stack web application built with Next.js, JavaScript, and MongoDB in a four-person capstone team. Engineered user, post, and messaging features across a 40&#43; route REST API, resolved Google OAuth token issues, and contributed 15 pull requests across four agile sprints.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Jungkyuu" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/posts/kitchen-connection/" target="_blank">
+                                Project Details
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 my-3">
+                <div class="card my-3 h-100" title="OverTheWire Bandit Security Write-ups">
+                    <div class="card-head">
+                        <img class="card-img-top" src="/images/bandit.png" alt="OverTheWire Bandit Security Write-ups">
+                    </div>
+                    <div class="card-body bg-transparent p-3">
+                        <div class="pb-2 bg-transparent">
+                            
+                            <span class="badge badge-secondary">Linux</span>
+                            
+                            <span class="badge badge-secondary">Bash</span>
+                            
+                            <span class="badge badge-secondary">Cybersecurity</span>
+                            
+                            <span class="badge badge-secondary">CLI</span>
+                            
+                        </div>
+                        <h5 class="card-title bg-transparent mt-1">OverTheWire Bandit Security Write-ups</h5>
+                        <div class="card-text bg-transparent secondary-font">
+                            Completed all 34 levels (Levels 0–33) of the OverTheWire Bandit wargame, documenting structured walkthroughs for Linux privilege escalation, SSH, file permissions, and Bash shell scripting.
+                        </div>
+                    </div>
+                    
+                    <div class="card-footer py-3">
+                        
+                        <span class="m-1 mx-2">
+                            <a href="https://github.com/Jungkyuu" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </span>
+                        
+                        
+                        <span class="float-end">
+                            <a class="btn btn-sm" href="/posts/bandit-levels/" target="_blank">
+                                Read Write-ups
+                            </a>
+                        </span>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+</section>
+<section id="achievements" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Certifications &amp; Credentials</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-3 px-md-5 px-lg-5">
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="AWS Certified Cloud Practitioner (CLF-C02)">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">AWS Certified Cloud Practitioner (CLF-C02)</h5>
+                            <div class="card-text secondary-font">
+                                Amazon Web Services — Validated foundational cloud architecture, IAM security, networking, and core AWS services (Nov 2026).
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="Microsoft Certified: Azure Fundamentals (AZ-900)">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Microsoft Certified: Azure Fundamentals (AZ-900)</h5>
+                            <div class="card-text secondary-font">
+                                Microsoft — Demonstrated core understanding of Azure cloud concepts, governance, compliance, and security.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                <div class="col-lg-4 col-md-6 my-3">
+                    <div class="card my-3 h-100 p-3" title="Microsoft Certified: Azure Data Fundamentals (DP-900)">
+                        
+                        <div class="card-body bg-transparent">
+                            <h5 class="card-title bg-transparent">Microsoft Certified: Azure Data Fundamentals (DP-900)</h5>
+                            <div class="card-text secondary-font">
+                                Microsoft — Verified knowledge of relational and non-relational cloud data workloads and analytics.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="py-5">
+    <div class="container">
+        <h3 class="text-center">Get In Touch</h3>
+        <div class="px-0 px-md-5 px-lg-5">
+            <div class="row justify-content-center px-md-5">
+                <div class="col-md-8 py-3">
+                    <div class="text-center">
+                        I am actively seeking Co-op opportunities in Software Engineering, Cloud Infrastructure, and Cybersecurity. Feel free to reach out!
+                    </div>
+                    
+                    <div class="text-center pt-3">
+                        <a 
+                            href='
+                                    mailto:jmok006@uottawa.ca
+                                  '
+                            target="_blank"
+                            class="btn"
+                        >
+                            Email Me
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact-form-status"></div>
+</section>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check-circle-fill" viewBox="0 0 16 16">
+    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+  </symbol>
+  <symbol id="info-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+  <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
+    <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+  </symbol>
+</svg>
+
+  </div><footer>
+    
+
+
+  
+
+ 
+ 
+<div class="container py-3" id="recent-posts">
+    
+    
+    <div class="h3 text-center text-secondary py-3">
+        Recent Posts
+    </div>
+    <div class="row justify-content-center">
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/kitchen-connection/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Kitchen Connection">Kitchen Connection</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>A full-stack recipe sharing and social platform built with Next.js, Node.js, and MongoDB. Engineered a 40+ route REST API, implemented Google OAuth authentication, and collaborated in a four-person Agile team using Git pull requests and sprint reviews.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">November 25, 2026</span>
+                    <a href="/posts/kitchen-connection/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/aws-cloud-application/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="Fragments Cloud Microservice (AWS S3 &amp; DynamoDB)">Fragments Cloud …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>A containerized RESTful microservice built with Node.js, Express, AWS S3, and DynamoDB. Configured LocalStack for local cloud emulation, automated 12 API integration tests with Hurl, and built a GitHub Actions CI/CD pipeline for Docker Hub deployment.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">November 25, 2026</span>
+                    <a href="/posts/aws-cloud-application/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 pt-2">
+            <div class="card h-100">
+                
+                <div class="card-body bg-transparent p-3 shadow-sm">
+                    <a href="/posts/overthewire-bandit-writeup/" class="primary-font card-title">
+                        <h5 class="card-title bg-transparent" title="OverTheWire Bandit Wargame Write-up (Level 0 - 33)">OverTheWire Bandit …</h5>
+                    </a>
+                    <div class="card-text secondary-font">
+                        <p>Comprehensive walkthrough and command-line solutions for all 34 levels (0–33) of the OverTheWire Bandit wargame, covering Linux file permissions, SSH authentication, shell scripting, cron jobs, and network troubleshooting.</p>
+                    </div>
+                </div>
+                <div class="mt-auto card-footer">
+                    <span class="float-start">November 24, 2026</span>
+                    <a href="/posts/overthewire-bandit-writeup/" class="float-end btn btn-outline-info btn-sm">Read</a>
+                </div>
+            </div>
+        </div>
+        
     </div>
 </div>
 
-    </main>
+<div class="text-center pt-2">
     
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">Jung Kyu Mok | CS Portfolio</a></span> · 
+    <span class="px-1">
+        <a href="https://github.com/Jungkyuu" target="_blank" aria-label="github">
+            <svg xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 1792 1792">
+                <path id="footer-socialNetworks-github-svg-path"
+                    d="M522 1352q-8 9-20-3-13-11-4-19 8-9 20 3 12 11 4 19zm-42-61q9 12 0 19-8 6-17-7t0-18q9-7 17 6zm-61-60q-5 7-13 2-10-5-7-12 3-5 13-2 10 5 7 12zm31 34q-6 7-16-3-9-11-2-16 6-6 16 3 9 11 2 16zm129 112q-4 12-19 6-17-4-13-15t19-7q16 5 13 16zm63 5q0 11-16 11-17 2-17-11 0-11 16-11 17-2 17 11zm58-10q2 10-14 14t-18-8 14-15q16-2 18 9zm964-956v960q0 119-84.5 203.5t-203.5 84.5h-224q-16 0-24.5-1t-19.5-5-16-14.5-5-27.5v-239q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-121-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-86-13.5q-44 113-7 204-79 85-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-40 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 103t.5 68q0 22-11 33.5t-22 13-33 1.5h-224q-119 0-203.5-84.5t-84.5-203.5v-960q0-119 84.5-203.5t203.5-84.5h960q119 0 203.5 84.5t84.5 203.5z" />
 
-    
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+                <metadata>
+                    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+                        <rdf:Description about="https://iconscout.com/legal#licenses"
+                            dc:title="Github, Online, Project, Hosting, Square"
+                            dc:description="Github, Online, Project, Hosting, Square" dc:publisher="Iconscout"
+                            dc:date="2016-12-14" dc:format="image/svg+xml" dc:language="en">
+                            <dc:creator>
+                                <rdf:Bag>
+                                    <rdf:li>Font Awesome</rdf:li>
+                                </rdf:Bag>
+                            </dc:creator>
+                        </rdf:Description>
+                    </rdf:RDF>
+                </metadata>
+            </svg>
+        </a>
     </span>
-</footer>
-<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
-        <polyline points="17 11 12 6 7 11"></polyline>
-        <polyline points="17 18 12 13 7 18"></polyline>
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        
-        let menuScrollTimeout;
-        menu.addEventListener("scroll", function () {
-            clearTimeout(menuScrollTimeout);
-            menuScrollTimeout = setTimeout(function () {
-                localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-            }, 150);
-        }, { passive: true });
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            const target = document.querySelector(`[id='${decodeURIComponent(id)}']`);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                target.scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                target.scrollIntoView();
-            }
-            
-            
-            if (target.tabIndex < 0 && !target.hasAttribute("tabindex")) {
-                target.setAttribute("tabindex", "-1");
-            }
-            target.focus({ preventScroll: true });
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var toplink = document.getElementById("top-link");
-    var scrollTicking = false;
     
-    window.addEventListener("scroll", function () {
-        if (scrollTicking) {
-            return;
-        }
-        scrollTicking = true;
-        requestAnimationFrame(function () {
-            const scrollThreshold = window.innerHeight;
-            const shown = document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold;
-            toplink.classList.toggle("hidden", !shown);
-            scrollTicking = false;
-        });
-    }, { passive: true });
+
+    
+    <span class="px-1">
+        <a href="https://www.linkedin.com/in/jung-kyu-mok-ba0945303/" target="_blank" aria-label="linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" width='2.4em' height='2.4em' fill="#fff" aria-label="LinkedIn"
+                viewBox="0 0 512 512">
+                <rect width="512" height="512" fill="#0077b5" rx="15%" />
+                <circle cx="142" cy="138" r="37" />
+                <path stroke="#fff" stroke-width="66" d="M244 194v198M142 194v198" />
+                <path d="M276 282c0-20 13-40 36-40 24 0 33 18 33 45v105h66V279c0-61-32-89-76-89-34 0-51 19-59 32" />
+            </svg>
+        </a>
+    </span>
+    
+
+    
+
+    
+
+    
+</div><div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-4 text-center">
+            
+                <div class="pb-2">
+                    <a href="http://localhost:1313/" title="Jung Kyu Mok">
+                        <img alt="Footer logo" src="/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
+            &copy; 2026  All rights reserved
+            <div class="text-secondary">
+                Made with
+                <span class="text-danger">
+                    &#10084;
+                </span>
+                and
+                <a href="https://github.com/gurusabarish/hugo-profile" target="_blank"
+                    title="Designed and developed by gurusabarish">
+                    Hugo Profile
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+        document.documentElement.classList.remove('dark');
+    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.classList.add('dark');
+        document.body.classList.add('dark');
+    }
 
 </script>
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            document.documentElement.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
         } else {
-            html.dataset.theme = 'dark';
+            document.body.classList.add('dark');
+            document.documentElement.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
     })
 
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+
 </script>
+
+
+    <script>
+      
+      window.searchIndexURL = "/index.json";
+    </script>
+    <script src="/js/search.js"></script>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/custom.css">
+
+
+  <section id="search-content" class="py-2">
+    <div class="container" id="search-results"></div>
+  </section>
 </body>
 
 </html>

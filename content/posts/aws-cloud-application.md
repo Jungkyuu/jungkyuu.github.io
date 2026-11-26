@@ -2,7 +2,7 @@
 title: "Fragments Cloud Microservice (AWS S3 & DynamoDB)"
 date: '2026-11-25T03:00:00-05:00'
 draft: false
-summary: "A containerized RESTful microservice built with Node.js, Express, AWS S3, and DynamoDB, featuring LocalStack emulation and an automated CI/CD pipeline."
+summary: "A containerized RESTful microservice built with Node.js, Express, AWS S3, and DynamoDB. Configured LocalStack for local cloud emulation, automated 12 API integration tests with Hurl, and built a GitHub Actions CI/CD pipeline for Docker Hub deployment."
 tags: ["AWS", "S3", "DynamoDB", "LocalStack", "Docker", "Node.js", "GitHub Actions", "CI/CD"]
 ---
 

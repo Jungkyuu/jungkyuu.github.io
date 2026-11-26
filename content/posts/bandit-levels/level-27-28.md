@@ -1,4 +1,5 @@
 ---
+date: "2026-11-24"
 title: "OverTheWire Bandit: level-27-28"
 draft: false
 ---
